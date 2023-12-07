@@ -1,1 +1,81 @@
+body{
+    font: roboto;
+}
 
+.header{
+    display:flex;
+    background-color: #1F2937;
+    .logo-pic{
+        width:100px:
+        height:auto;
+    }
+    .link{
+        font-size:18px;
+        color: #E5E7EB;
+    }
+}
+
+.first{
+    background-color: #1F2937;
+    display:flex;
+    .volunteer{
+        display:flex;
+        flex-direction: column;
+    }
+    .descriptor{
+        font-size: 48px;
+        font-weight: bolder;
+        color: #F9FAF8
+    }
+    .main-picture{
+        width: 300px;
+        height:auto;
+    }
+    button{
+        color:#3882F6;
+    }
+    .volunteer-text{
+        font-size:18px;
+        color: #E5E7EB;
+    }
+}
+
+.second{
+    .spotlight{
+        display:flex;
+        justify-content: center;
+        font-size: 36px;
+        font-weight: bolder;
+    }
+    .pets{
+        display:flex;
+        justify-content: space-evenly;
+        .text{
+            display:flex;
+            justify-content: center;
+        }
+        .pet-img{
+            width:200px;
+            height:auto;
+        }
+    }
+}
+
+.third{
+    display:flex;
+    justify-content:stretch;
+    background-color: #E5E7EB;
+    padding: 50px;
+    .testimony{
+        font-size: 36px;
+        font-style: italic;
+    }
+}
+
+.fourth{
+
+}
+
+.footer{
+    background-color: #1F2937;
+}
