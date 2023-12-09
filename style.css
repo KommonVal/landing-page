@@ -4,9 +4,11 @@ body{
 
 .header{
     display:flex;
+    justify-content: space-evenly;
     background-color: #1F2937;
+    padding:50px;
     .logo-pic{
-        width:100px:
+        width:20%;
         height:auto;
     }
     .link{
@@ -17,30 +19,36 @@ body{
 
 .first{
     background-color: #1F2937;
+    padding:50px;
     display:flex;
+    justify-content: space-between;
     .volunteer{
         display:flex;
         flex-direction: column;
-    }
-    .descriptor{
-        font-size: 48px;
-        font-weight: bolder;
-        color: #F9FAF8
+        justify-content: space-evenly;
     }
     .main-picture{
-        width: 300px;
+        width: 50%;
         height:auto;
+    }
+    .descriptor{
+        font-size: 36px;
+        font-weight: bolder;
+        color: #F9FAF8;
     }
     button{
         color:#3882F6;
+        display:flex;
+        justify-content: center;
     }
     .volunteer-text{
-        font-size:18px;
-        color: #E5E7EB;
+        font-size: 20px;
+        color: #F9FAF8
     }
 }
 
 .second{
+    padding:50px;
     .spotlight{
         display:flex;
         justify-content: center;
@@ -67,15 +75,34 @@ body{
     background-color: #E5E7EB;
     padding: 50px;
     .testimony{
-        font-size: 36px;
+        font-size: 26px;
         font-style: italic;
     }
 }
 
 .fourth{
+    padding:50px;
+    margin:100px;
+    background-color:#3882F6;
+    display:flex;
+    justify-content: space-around;
+    .newsletter{
+        color:white;
+        .bigger{
+            font-size: 25px;
+            font-weight: bold;
+        }
+    }
+    .button{
+        display:flex;
+    }
 
 }
 
 .footer{
     background-color: #1F2937;
+    padding:10px;
+    color:white;
+    display:flex;
+    justify-content: center;
 }
