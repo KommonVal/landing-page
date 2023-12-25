@@ -6,10 +6,11 @@ body{
     display:flex;
     justify-content: space-evenly;
     background-color: #1F2937;
-    padding:50px;
+    padding: 20px;
     .logo-pic{
         width:20%;
         height:auto;
+        flex-grow: 0;
     }
     .link{
         font-size:18px;
@@ -22,10 +23,12 @@ body{
     padding:50px;
     display:flex;
     justify-content: space-between;
+    gap:50px;
     .volunteer{
         display:flex;
         flex-direction: column;
         justify-content: space-evenly;
+        align-items: space-between;
     }
     .main-picture{
         width: 50%;
